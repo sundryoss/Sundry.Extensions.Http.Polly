@@ -5,13 +5,13 @@
   <PropertyGroup>
     <LangVersion>latest</LangVersion>
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
-    <Description>The HttpClient factory is a pattern for configuring and retrieving named HttpClients in a composable way. This package integrates IHttpClientFactory with the Polly (v8.0) library, to add transient-fault-handling and resiliency through fluent policies such as Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback.</Description>
+      <Description>The HttpClient factory is a pattern for configuring and retrieving named HttpClients in a composable way. This package integrates IHttpClientFactory with the Polly (v8.0) library, to add transient-fault-handling and resiliency through fluent policies such as Retry, Circuit Breaker, Timeout, Hedging, Rate Limiter and Fallback.</Description>
     <Authors>Sundry OSS</Authors>
     <PackageTags>polly;httpclient;ihttpclientfactory</PackageTags>
     <PackageProjectUrl>https://github.com/sundryoss/Sundry.Extensions.Http.Polly</PackageProjectUrl>
     <RepositoryUrl>https://github.com/sundryoss/Sundry.Extensions.Http.Polly</RepositoryUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Version>1.0.0</Version>
+    <Version>1.0.2</Version>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <DebugSymbols>true</DebugSymbols>
