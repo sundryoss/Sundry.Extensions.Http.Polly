@@ -7,12 +7,6 @@ on:
     paths-ignore:
       - '**/README.md'
       - '**/demo/**'
-  pull_request: 
-    branches:
-      - "v1*"
-    paths-ignore:
-        - '**/README.md'
-        - '**/demo/**'
 defaults:
   run:
     working-directory: src
