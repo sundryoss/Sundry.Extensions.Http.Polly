@@ -3,13 +3,13 @@ name: Publish Nuget Package
 on:
   push:
     branches:
-      - "^refs/heads/v\\d+(?:\\.\\d+)?$"
+      - "v1*"
     paths-ignore:
       - '**/README.md'
       - '**/demo/**'
   pull_request: 
     branches:
-      - "^refs/heads/v\\d+(?:\\.\\d+)?$"
+      - "v1*"
     paths-ignore:
         - '**/README.md'
         - '**/demo/**'
